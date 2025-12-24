@@ -2,13 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  ArrowRight,
-  Trophy,
-  Target,
-  Sparkles,
-  CheckCircle2,
-} from "lucide-react";
+import {ArrowRight} from "lucide-react";
 import HeroSection from "@/components/hero";
 import {
   Accordion,
@@ -201,7 +195,8 @@ export default function LandingPage() {
                 variant="secondary"
                 className="h-11 mt-5 animate-bounce"
               >
-                Be a Part of Our Journey Today <ArrowRight className="ml-2 h-4 w-4" />
+               Be a Part of Our Journey Today <ArrowRight className="ml-2 h-4 w-4" />
+
               </Button>
             </Link>
           </div>

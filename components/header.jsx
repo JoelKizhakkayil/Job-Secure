@@ -34,7 +34,8 @@ export default async function Header() {
             className="h-14 py-1 w-auto object-contain"
           />
         </Link>
-
+        <Link href="/">
+        </Link>
         {/* Action Buttons */}
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>

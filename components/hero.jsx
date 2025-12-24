@@ -11,9 +11,9 @@ const HeroSection = () => {
   const imageRef = useRef(null);
   const [animationStarted, setAnimationStarted] = useState(false);
 
-  // Split the text into words
+  // Split the text into indv words
   const titleWords = ["Your", "Career", "Assistant", "for", "Professional", "Success"];
-
+   
 
   useEffect(() => {
     const imageElement = imageRef.current;
@@ -59,8 +59,8 @@ const HeroSection = () => {
             ))}
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Skyrocket your career with personalized guidance, interview prep, and
-            AI-powered tools for job success all at the cost of NOTHING.
+            Skyrocket your career with personalized guidance, interview preparation and
+            AI-powered resources, all at the cost of NOTHING.
           </p>
         </div>
         <div className="flex justify-center space-x-4">

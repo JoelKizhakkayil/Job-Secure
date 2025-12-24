@@ -9,7 +9,7 @@ import { dark } from "@clerk/themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "JobSecure - AI Career Assistant",
+  title: "JobSecure | Simplifying Career Development",
   description: "Simplifying Career Development",
 };
 
