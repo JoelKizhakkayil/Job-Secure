@@ -7,6 +7,9 @@ import {
   GraduationCap,
   ChevronDown,
   StarsIcon,
+  briefcaseBusiness,
+  Briefcase,
+  BriefcaseBusiness,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -51,7 +54,10 @@ export default async function Header() {
                 <LayoutDashboard className="h-4 w-4" />
               </Button>
             </Link>
-
+            <Button variant="secondary" className="hidden md:inline-flex items-center gap-2">
+              <BriefcaseBusiness className="h-4 w-4"/>
+              <Link href="https://portfolio-joel-eta.vercel.app/" target="_blank">View Portfolio</Link>
+            </Button>
             {/* Growth Tools Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
